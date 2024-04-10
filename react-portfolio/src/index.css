@@ -1,0 +1,10 @@
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+
+/* create a margin between list items in navigation */
+.m1{
+    margin-right:20px;
+}
