@@ -151,3 +151,20 @@ footer p {
   /* margin-left: auto; */
   margin-right: auto;
 }
+
+/* CSS for project images */
+.projectImage{
+  max-width: 60%;
+}
+
+.project {
+  display: inline-block;
+  margin: 10px; /* Add margin to create space between projects */
+  width: calc(33.33% - 20px); /* Set width to 33.33% of the container width minus the margin */
+}
+
+@media (max-width: 768px) {
+  .project {
+    width: calc(50% - 20px); /* Set width to 50% for smaller screens */
+  }
+}
