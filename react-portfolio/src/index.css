@@ -86,3 +86,13 @@ footer p {
   margin-top: 20px;
   font-size: 14px;
 }
+
+/* Nav bar styling */
+.nav-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link:visited {
+  color: #333; /* Set the same color as for unvisited links */
+}
