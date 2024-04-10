@@ -1,4 +1,4 @@
-// import benitaImage from "../../assets/about/benita.JPG"
+import benitaImage from "../../assets/about/benita.JPG";
 
 function About() {
   return (
