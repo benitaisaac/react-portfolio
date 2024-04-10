@@ -96,3 +96,10 @@ footer p {
 .nav-link:visited {
   color: #333; /* Set the same color as for unvisited links */
 }
+
+/* Define styles for active navigation link */
+.nav-link.active {
+  color: #007bff; /* Change the color of the active link */
+  font-weight: bold; /* Make the active link bold */
+  /* Add additional styles as needed */
+}
