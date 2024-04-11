@@ -8,13 +8,14 @@ function Contact() {
     message: "",
   });
 
-  //declare useState for name,email
+  //declare useState for error messages and set default as false 
   const [nameError, setNameError] = useState(false);
   const [emailError, setEmailError] = useState(false);
 
-
+  //define handleBlur function, called in onBlur below
   const handleBlur = (field) => {
     if (field === "name") {
+        //if there is not data in the form, then setNameError will be set to true and the error will appear
       setNameError(!formData.name);
     } else if (field === "email") {
       setEmailError(!formData.email);
@@ -30,10 +31,10 @@ function Contact() {
     });
   };
 
-  //logic for handling submit, but we dont need to do this now
+  //logic for handling submit, but we dont need to do this now so it doesn't do anything
   const handleSubmit = (e) => {
-    e.preventDefault();
-    // Add your form submission logic here
+    // e.preventDefault();
+    // Add form logic here in the future for when I want to send data somewhere
     console.log(formData);
   };
 
@@ -49,9 +50,11 @@ function Contact() {
             name="name"
             value={formData.name}
             onChange={handleChange}
+            //onBlur handles the state change and will eventually display error message if field is empty
             onBlur={() => handleBlur("name")}
             required
           />
+          {/* This is the error message that will be displayed */}
           {nameError && <div style={{ color: "red" }}>Name is required</div>}
         </div>
         <div>
