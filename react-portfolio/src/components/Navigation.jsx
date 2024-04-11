@@ -16,7 +16,7 @@ function Navigation() {
         <li className='m1'>
           <Link
             to="/"
-            className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+            className={`${currentPage === '/' ? 'nav-link active' : 'nav-link'} bigger-text`}
             onClick={() => handleNavigationClick('about')}
           >
             About
@@ -25,7 +25,7 @@ function Navigation() {
         <li className='m1'>
           <Link
             to="/portfolio"
-            className={currentPage === '/portfolio' ? 'nav-link active' : 'nav-link'}
+            className={`${currentPage === '/portfolio' ? 'nav-link active' : 'nav-link'} bigger-text`} 
             onClick={() => handleNavigationClick('portfolio')}
           >
             Portfolio
@@ -34,7 +34,7 @@ function Navigation() {
         <li className='m1'>
           <Link
             to="/contact"
-            className={currentPage === '/contact' ? 'nav-link active' : 'nav-link'}
+            className={`${currentPage === '/contact' ? 'nav-link active' : 'nav-link'} bigger-text`}
             onClick={() => handleNavigationClick('contact')}
           >
             Contact
@@ -43,7 +43,7 @@ function Navigation() {
         <li className='m1'>
           <Link
             to="/resume"
-            className={currentPage === '/resume' ? 'nav-link active' : 'nav-link'}
+            className={`${currentPage === '/resume' ? 'nav-link active' : 'nav-link'} bigger-text`}
             onClick={() => handleNavigationClick('resume')}
           >
             Resume
