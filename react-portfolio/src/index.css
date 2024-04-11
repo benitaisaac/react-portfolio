@@ -3,6 +3,21 @@
   background-color: #606c38;
 }
 
+.main {
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.header-content {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Align items with space between */
+  padding: 20px; /* Add padding as needed */
+}
+
+.header-content h1 {
+  color: white; /* Set the text color */
+}
+
 .container {
   margin: 10px;
 }
@@ -153,11 +168,19 @@ footer p {
 }
 
 .benitaImage {
-  max-width: 20%;
+  max-width: 30%;
   height: auto;
   display: block;
   /* margin-left: auto; */
   margin-right: auto;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  /* Adjust image size for smaller screens */
+  .benitaImage {
+    max-width: 80%; /* Set a smaller width for screens up to 768px */
+  }
 }
 
 /* CSS for project images */
