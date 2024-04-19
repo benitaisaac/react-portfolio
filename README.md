@@ -2,7 +2,7 @@
 
 Welcome to my portfolio repository! This is a simple React application that showcases all the projects I've created during my bootcamp journey over the last six months.
 
-![A picture of Benita's Portfolio](./public/assets/about/Benitas-Portfolio.png)
+![A picture of Benita's Portfolio](Benitas-Portfolio.png)
 
 
 ## Getting Started
