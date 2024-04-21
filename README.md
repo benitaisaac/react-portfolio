@@ -4,6 +4,8 @@ Welcome to my portfolio repository! This is a simple React application that show
 
 ![A picture of Benita's Portfolio](Benitas-Portfolio.png)
 
+Deployed Application: https://main--benitaportfolio.netlify.app/
+
 
 ## Getting Started
 
