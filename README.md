@@ -11,7 +11,7 @@ Deployed Application: https://main--benitaportfolio.netlify.app/
 
 To run the application locally, follow these steps:
 
-1. Clone this repository to your local machine using `git clone https://github.com/your-username/your-repo.git`
+1. Clone this repository to your local machine using `git clone https://github.com/benitaisaac/react-portfolio.git`
 2. Navigate into the project directory: `cd your-repo`
 3. Install the necessary dependencies by running: `npm install`
 4. Start the development server with: `npm run start`
