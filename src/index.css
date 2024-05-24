@@ -178,12 +178,18 @@ footer p {
   background-color: #0056b3;
 }
 
+
 @media (max-width: 768px) {
   /* Adjust image size for smaller screens */
   .benitaImage {
-    max-width: 80%; /* Set a smaller width for screens up to 768px */
+    flex-grow: 2; /* Set a smaller width for screens up to 768px */
+  }
+
+  .about-flex {
+    flex-direction: column;
   }
 }
+
 
 /* CSS for project images */
 .projectImage{
