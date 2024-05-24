@@ -32,6 +32,10 @@ The portfolio section of this application is linked to all my repositories for t
 
 This project is licensed under the [MIT License](LICENSE).
 
+## Inspirations 
+[Polaroid Effect](https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html#) 
+
+
 ## Questions or Issues?
 
 If you have any questions or encounter any issues while using the application, feel free to open an issue on this repository or reach out to me directly.
