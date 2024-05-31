@@ -2,7 +2,7 @@ function About() {
   return (
     <div className="about-flex">
       <div className="polaroid">
-        <a href="#" title="Hi! I'm Benita :)">
+        <a href="/" title="Hi! I'm Benita :)">
           <img
             className="benitaImage"
             src="/assets/about/benita.JPG"
