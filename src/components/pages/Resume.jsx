@@ -1,6 +1,6 @@
 function Resume() {
   const resumeUrl =
-    "https://docs.google.com/document/d/1yTp1EKI4YM4LJKeuycErITn2G4Vg0y5ry4cCg7ymgmM/edit?usp=sharing";
+    "https://docs.google.com/document/d/1me-4bCiUQE49my4KXsUBTvkNDvd6KCezD9niXMte-fM/edit?usp=sharing";
 
   return (
     <div className="resume-container">
